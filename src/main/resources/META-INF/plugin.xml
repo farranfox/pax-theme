@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.farranfox.pax.theme</id>
-    <name>Pax</name>
+    <name>Pax Theme</name>
     <!-- Kept in sync with `pluginVersion` in gradle.properties. -->
     <version>1.0.0</version>
     <vendor email="prestogecko@gmail.com" url="https://github.com/farranfox">Farukh Narzullaev</vendor>

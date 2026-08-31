@@ -1,4 +1,4 @@
-# Pax
+# Pax Theme
 
 A minimalist dark theme for JetBrains IDEs, rebuilt on top of the Islands UI
 introduced in 2025.3.
