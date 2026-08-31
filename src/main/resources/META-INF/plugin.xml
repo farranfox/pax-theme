@@ -1,0 +1,42 @@
+<idea-plugin>
+    <id>com.farranfox.pax.theme</id>
+    <name>Pax</name>
+    <!-- Kept in sync with `pluginVersion` in gradle.properties. -->
+    <version>1.0.0</version>
+    <vendor email="prestogecko@gmail.com" url="https://github.com/farranfox">Farukh Narzullaev</vendor>
+
+    <description><![CDATA[
+        <p>A minimalist dark theme using comfortable UI colors, built on top of the
+        <b>Islands</b> look introduced in JetBrains IDEs 2025.3.</p>
+        <p>Developed on top of the <a href="https://github.com/luisfer0793/theme-carbon">Carbon</a>
+        theme by Luis Fernando Jim&eacute;nez.</p>
+        <ul>
+            <li>Islands UI by default &mdash; rounded editor and tool window panels.</li>
+            <li><b>JetBrains Mono</b> as the default editor and console font, ligatures on.</li>
+            <li>Completely italic-free syntax highlighting.</li>
+        </ul>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <b>1.0.0</b>
+        <ul>
+            <li>Initial release of the Pax theme.</li>
+            <li>Dark theme built on the Islands UI (<code>Islands Dark</code> parent theme) for JetBrains 2025.3+.</li>
+            <li>Color palette inherited from the Carbon theme by Luis Fernando Jim&eacute;nez.</li>
+            <li><b>JetBrains Mono</b> as the default editor and console font.</li>
+            <li>Italic-free syntax highlighting.</li>
+        </ul>
+    ]]>
+    </change-notes>
+
+    <!-- Islands UI ships as the default look since 2025.3 (build 253).
+         Kept in sync with `pluginSinceBuild` in gradle.properties. -->
+    <idea-version since-build="253"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="a801fe73-c03f-462a-9996-c6a5844f249e"
+                       path="/themes/Pax.theme.json"/>
+    </extensions>
+</idea-plugin>
